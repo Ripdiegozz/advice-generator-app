@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'lato': ["Lato, sans-serif"],
-        'serif': ["Figtree, sans-serif"]
+        'serif': ["'Manrope', sans-serif"]
       },
     },
   },
