@@ -29,7 +29,7 @@ function getNewAdvice() {
             advice.innerHTML = `"${data.slip.advice}"`
         )
     })
-    .catch((err) => alert("Error fetching data from API. :("))
+    .catch((err) => alert("Error loading your advice, reroll the dice. :p"))
     
     
 }
