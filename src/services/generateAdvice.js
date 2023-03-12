@@ -1,8 +1,12 @@
 const getRandomInt = () => {
     let int = Math.floor(Math.random() * 224)
 
-    if (int == 0){
+    while (int == 0){
         int = Math.floor(Math.random() * 224)
+
+        if (int != 0){
+            break
+        }
     }
 
     return int
