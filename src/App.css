@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #root {
-  background-attachment: rgba(32,38,50,255);
+  background: rgba(32,38,50,255);
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;

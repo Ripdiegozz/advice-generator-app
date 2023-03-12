@@ -15,6 +15,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html{
+  background-color: rgba(32,38,50,255);
+}
+
 body {
   margin: 0;
   display: flex;
